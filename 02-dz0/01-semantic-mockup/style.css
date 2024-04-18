@@ -1,0 +1,43 @@
+:root {
+    --caramelPink: #E4717A;
+    --lightIvory: #E6D690;
+    --bananomania: #FAE7B5;
+    --macaroniAndCheese: #FFBD88;
+    --darkGreenTea: #BADBAD;
+}
+
+.pageHeader {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: var(--lightIvory);
+}
+
+.pageNav {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: var(--caramelPink);
+}
+
+.pageMain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: var(--bananomania);
+}
+
+.pageMain__article {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: var(--darkGreenTea);
+}
+
+.pageFooter {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: var(--macaroniAndCheese);
+}
