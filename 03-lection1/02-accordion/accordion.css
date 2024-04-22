@@ -1,1 +1,7 @@
-/* Стилизация аккордеона */
+@import '../../assets/css/main.css';
+
+.accordion {
+    line-height: 24px;
+    font-size: 16px;
+    max-width: 730px;
+}

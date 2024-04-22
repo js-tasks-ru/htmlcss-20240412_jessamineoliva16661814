@@ -1,0 +1,6 @@
+@import '../accordion.css';
+
+.accordion__message {
+    margin-top: 16px;
+    color: var(--grey-4);
+}

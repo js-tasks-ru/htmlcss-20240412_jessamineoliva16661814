@@ -1,0 +1,6 @@
+@import '../accordion.css';
+
+.accordion__summary {
+    color: var(--black);
+    list-style-type: none;
+}
