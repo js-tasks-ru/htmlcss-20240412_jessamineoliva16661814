@@ -1,0 +1,18 @@
+@import '../button.css';
+
+.button_primary {
+    background-color: var(--primary);
+}
+
+.button_primary:active {
+    background-color: var(--primary-active);
+}
+
+.button_primary:disabled {
+    background-color: var(--primary);
+    opacity: 0.5;
+}
+
+.button_primary:hover {
+    background-color: var(--primary-hover);
+}
