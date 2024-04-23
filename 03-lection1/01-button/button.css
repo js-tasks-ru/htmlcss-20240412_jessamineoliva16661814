@@ -5,3 +5,70 @@
     height: 48px;
     border-radius: 8px;
 }
+
+/* .button_primary */
+
+.button_primary {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.button_primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.button_primary:hover {
+    background-color: var(--primary-focused);
+    transition: background-color 200ms ease-in-out;
+}
+
+.button_primary:active {
+    background-color: var(--primary);
+    transition: background-color 200ms ease-in-out;
+}
+
+/* .button_secondary */
+
+.button_secondary {
+    color: var(--white);
+    background-color: var(--secondary);
+}
+
+.button_secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.button_secondary:hover {
+    background-color: var(--secondary-focused);
+    transition: background-color 200ms ease-in-out;
+}
+
+.button_secondary:active {
+    background-color: var(--secondary);
+    transition: background-color 200ms ease-in-out;
+}
+
+/* .button_alternate */
+
+.button_alternate {
+    border: 1px solid var(--grey-3);
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.button_alternate:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.button_alternate:hover {
+    border: 1px solid var(--black);
+    transition: border 200ms ease-in-out;
+}
+
+.button_alternate:active {
+    border: 1px solid var(--grey-3);
+    transition: border 200ms ease-in-out;
+}
