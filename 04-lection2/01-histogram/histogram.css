@@ -1,49 +1,70 @@
 .histogram {
     display: flex;
     flex-direction: column;
-
+    
+    line-height: 24px;
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 400;
     color: var(--black);
-
-    padding: 16px 24px;
+    
     border: 1px solid var(--grey-3);
     border-radius: 8px;
+    padding: 16px 24px;
 }
 
 /* histogram__panel */
 
 .histogram__panel {
-    font-family: inherit;
-
     display: flex;
     flex-grow: 0;
+    
+    font-family: inherit;
+
+    padding-bottom: 39px;
 }
 
 .histogram__parameter {
+    flex-grow: 1;
+
     font-family: inherit;
 }
 
 .histogram__key {
-    font-size: 16px;
-    line-height: 24px;
-
-    margin-bottom: 6px;
+    font-family: inherit;
+    opacity: 0.8;
+    
+    padding-bottom: 6px;
 }
 
 .histogram__value {
-    font-size: 20px;
     line-height: 26px;
+    font-family: inherit;
+    font-size: 20px;
 }
 
 .histogram__link {
+    flex-grow: 0;
+
     font-family: inherit;
+
+    padding-top: 3px;
 }
 
 /* histogram__chart */
 
 .histogram__chart {
+    display: flex;
+    flex-basis: 50px;
     flex-grow: 1;
-    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1px;
 }
+
+.histogram__index {
+    flex-grow: 1;
+    background-color: var(--blue);
+}
+
 
