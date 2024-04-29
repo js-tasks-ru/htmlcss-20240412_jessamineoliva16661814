@@ -1,5 +1,5 @@
 .accordion {
-    font-family: inherit;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 24px;
 }
@@ -7,6 +7,8 @@
 /* .accordion__item */
 
 .accordion__item {
+    font-family: inherit;
+
     margin-bottom: 8px;
     padding: 24px 32px;
     border: 1px solid var(--grey-3);
@@ -20,14 +22,18 @@
 /* .accordion__summary */
 
 .accordion__summary {
+    font-family: inherit;
     color: var(--black);
+    
     list-style-type: none;
 }
 
 /* .accordion__message */
 
 .accordion__message {
+    font-family: inherit;
     color: var(--grey-4);
+
     padding-top: 16px;
     padding-bottom: 8px;
 }
