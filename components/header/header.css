@@ -1,0 +1,14 @@
+.header {
+    font-family: 'Inter', sans-serif;
+    color: var(--black);
+}
+
+.header__title {
+    font-family: inherit;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 64px;
+
+    margin-top: 96px;
+    margin-bottom: 77px;
+}

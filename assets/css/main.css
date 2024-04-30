@@ -6,6 +6,12 @@
 @import '../../04-lection2/01-histogram/histogram.css';
 @import '../../04-lection2/02-skeleton/skeleton.css';
 
+@import '../../components/header/header.css';
+@import '../../components/footer/footer.css';
+@import '../../components/component/component.css';
+
+@import '../../components/page/page.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -31,4 +37,9 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
 }
