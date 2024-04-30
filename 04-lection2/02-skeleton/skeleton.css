@@ -1,0 +1,43 @@
+.skeleton {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 40px 32px 24px;
+}
+
+.skeleton__title {
+    display: flex;
+}
+
+.skeleton__user-avatar {
+    flex-grow: 0;
+    
+    width: 64px;
+    margin-right: 16px;
+    height: 64px;
+    border-radius: 32px;
+    
+    background-color: var(--grey-2);
+}
+
+.skeleton__user-info {
+    flex-grow: 1;
+}
+
+.skeleton__article {
+    margin-top: 16px;
+}
+
+.skeleton__line {
+    margin-top: 8px;
+    height: 20px;
+    
+    background-color: var(--grey-2);
+}
+
+.skeleton__line_width-40per {
+    width: 40%;
+}
+
+.skeleton__line_width-60per {
+    width: 60%;
+}
