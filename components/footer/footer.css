@@ -1,9 +1,19 @@
 .footer {
     font-family: 'Inter', sans-serif;
-    text-align: center;
     color: var(--black);
     
     border-top: 1px solid var(--grey-2);
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: inherit;
+    text-align: center;
+
+    margin: 0 auto;
     padding: 71px 0 136px 0;
 }
 
@@ -12,8 +22,6 @@
     font-size: 38px;
     font-weight: 500;
     line-height: 48px;
-
-    margin: 0 auto;
 }
 
 .footer__description {
@@ -22,7 +30,6 @@
     font-weight: 400;
     line-height: 24px;
 
-    margin: 0 auto;
     margin-top: 32px;
     max-width: 640px;
 }

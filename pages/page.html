@@ -1,110 +1,115 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <title>Component library</title>
-        <link rel="stylesheet" href="../assets/css/main.css">
-        <style>
-            /* Исключительно в целях демонстрации! */
-            .histogram__index_0 {
-                height: 0%;
-            }
-            .histogram__index_25 {
-                height: 25%;
-            }
-            .histogram__index_50 {
-                height: 50%;
-            }
-            .histogram__index_75 {
-                height: 75%;
-            }
-            .histogram__index_100 {
-                height: 100%;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="page">
-            <header class="header page__header">
+
+<head>
+    <title>Component library</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <style>
+        /* Исключительно в целях демонстрации! */
+        .histogram__index_0 {
+            height: 0%;
+        }
+
+        .histogram__index_25 {
+            height: 25%;
+        }
+
+        .histogram__index_50 {
+            height: 50%;
+        }
+
+        .histogram__index_75 {
+            height: 75%;
+        }
+
+        .histogram__index_100 {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header page__header">
+            <div class="header__container page__header-container">
                 <h1 class="header__title">
                     Reusable component library
                 </h1>
-            </header>
-            <main class="page__main">
-                <div class="page__line">
-                    <!-- Tooltip -->
-                    <article class="component page__article">
-                        <div class="component__view">
-                        </div>
-                        <div class="component__description">Tooltip</div>
-                    </article>
-                    <!-- Custom form elements -->
-                    <article class="component page__article">
-                        <div class="component__view">
-                        </div>
-                        <div class="component__description">Custom form elements</div>
-                    </article>
-                    <!-- Calendar -->
-                    <article class="component page__article">
-                        <div class="component__view">
-                        </div>
-                        <div class="component__description">Calendar</div>
-                    </article>
-                </div>
-                <div class="page__line">
-                    <!-- Modal dialog -->
-                    <article class="component page__article">
-                        <div class="component__view">
-                        </div>
-                        <div class="component__description">Modal dialog</div>
-                    </article>
-                    <!-- Histogram -->
-                    <article class="component page__article">
-                        <div class="component__view">
-                            <div class="histogram">
-                                <div class="histogram__panel">
-                                    <div class="histogram__parameter">
-                                        <p class="histogram__key">Индекс популярности</p>
-                                        <h4 class="histogram__value">1.134</h4>
-                                    </div>
-                                    <a class="histogram__link" href="">View all</a>
+            </div>
+        </header>
+        <main class="page__main">
+            <div class="page__main-container">
+                <!-- Tooltip -->
+                <article class="component page__article">
+                    <div class="component__view">
+                    </div>
+                    <div class="component__description">Tooltip</div>
+                </article>
+                <!-- Custom form elements -->
+                <article class="component page__article">
+                    <div class="component__view">
+                    </div>
+                    <div class="component__description">Custom form elements</div>
+                </article>
+                <!-- Calendar -->
+                <article class="component page__article">
+                    <div class="component__view">
+                    </div>
+                    <div class="component__description">Calendar</div>
+                </article>
+                <!-- Modal dialog -->
+                <article class="component page__article">
+                    <div class="component__view">
+                    </div>
+                    <div class="component__description">Modal dialog</div>
+                </article>
+                <!-- Histogram -->
+                <article class="component page__article">
+                    <div class="component__view">
+                        <div class="histogram">
+                            <div class="histogram__panel">
+                                <div class="histogram__parameter">
+                                    <p class="histogram__key">Индекс популярности</p>
+                                    <h4 class="histogram__value">1.134</h4>
                                 </div>
-                                <div class="histogram__chart">
-                                    <div class="histogram__index histogram__index_75"></div>
-                                    <div class="histogram__index histogram__index_25"></div>
-                                    <div class="histogram__index histogram__index_50"></div>
-                                    <div class="histogram__index histogram__index_75"></div>
-                                    <div class="histogram__index histogram__index_75"></div>
-                                    <div class="histogram__index histogram__index_50"></div>
-                                    <div class="histogram__index histogram__index_100"></div>
-                                    <div class="histogram__index histogram__index_25"></div>
-                                    <div class="histogram__index"></div>
-                                    <div class="histogram__index"></div>
-                                    <div class="histogram__index"></div>
-                                    <div class="histogram__index histogram__index_25"></div>
-                                    <div class="histogram__index histogram__index_75"></div>
-                                    <div class="histogram__index histogram__index_100"></div>
-                                    <div class="histogram__index histogram__index_50"></div>
-                                </div>
+                                <a class="histogram__link" href="">View all</a>
+                            </div>
+                            <div class="histogram__chart">
+                                <div class="histogram__index histogram__index_75"></div>
+                                <div class="histogram__index histogram__index_100"></div>
+                                <div class="histogram__index histogram__index_75"></div>
+                                <div class="histogram__index histogram__index_50"></div>
+                                <div class="histogram__index histogram__index_25"></div>
+                                <div class="histogram__index histogram__index_0"></div>
+                                <div class="histogram__index histogram__index_25"></div>
                             </div>
                         </div>
-                        <div class="component__description">Histogram</div>
-                    </article>
-                    <!-- Avatar -->
-                    <article class="component page__article">
-                        <div class="component__view">
-                        </div>
-                        <div class="component__description">Avatar</div>
-                    </article>
-                </div>
-            </main>
-            <footer class="footer page__footer">
+                    </div>
+                    <div class="component__description">Histogram</div>
+                </article>
+                <!-- Avatar -->
+                <article class="component page__article">
+                    <div class="component__view">
+                    </div>
+                    <div class="component__description">Avatar</div>
+                </article>
+            </div>
+        </main>
+        <footer class="footer page__footer">
+            <div class="footer__container page__footer-container">
                 <h2 class="footer__title">
                     About
                 </h2>
                 <p class="footer__description">
-                    This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.
+                    This project is a collection of professionally designed, pre-built, fully responsive HTML snippets
+                    you
+                    can drop into your projects. Get started by checking out our free preview components, or browsing
+                    the
+                    PNG previews in the categories you're most curious about.
                 </p>
-            </footer>
-        </div>
-    </body>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
