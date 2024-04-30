@@ -29,8 +29,9 @@
     gap: 30px;
 
     margin: 0 auto;
-    max-width: 1110px;
     padding: 68px 0 204px 0;
+
+    max-width: 1110px;
 }
 
 .page__article {
