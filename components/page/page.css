@@ -20,6 +20,8 @@
 .page__main {
     flex-grow: 1;
     border-top: 1px solid var(--grey-2);
+
+    background-color: var(--grey-1);
 }
 
 .page__main-container {
@@ -37,6 +39,8 @@
 .page__article {
     flex-basis: 30%;
     flex-grow: 1;
+
+    background-color: var(--white);
 }
 
 /* page__footer */
