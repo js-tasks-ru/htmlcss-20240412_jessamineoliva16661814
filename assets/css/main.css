@@ -36,7 +36,7 @@
     --secondary-focused: var(--dark-purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }
 
