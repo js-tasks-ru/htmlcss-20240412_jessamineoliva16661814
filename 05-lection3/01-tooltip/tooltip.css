@@ -20,6 +20,7 @@
     padding: 13px 21px 8px 21px;
 
     background-color: var(--blue);
+    box-shadow: 0 2px 4px var(--black);
 }
 
 .tooltip__bubble::before {
