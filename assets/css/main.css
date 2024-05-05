@@ -2,6 +2,7 @@
 @import '../css/reset.css';
 
 @import '../../03-lection1/01-button/button.css';
+@import '../../03-lection1/02-accordion/accordion.css';
 
 :root {
     --white: #ffffff;
