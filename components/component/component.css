@@ -23,3 +23,7 @@
 
     margin-top: 75px;
 }
+
+.component__content {
+    height: 100%;
+}
