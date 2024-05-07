@@ -25,48 +25,60 @@
         .histogram__index_100 {
             height: 100%;
         }
+
+        .page_1440px {
+            max-width: 1440px;
+        }
+
+        .page__container_1110px {
+            max-width: 1110px;
+        }
+
+        .main__article_367px {
+            height: 367px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="page">
+    <div class="page page_1440px">
         <header class="header page__header">
-            <div class="header__container page__header-container">
+            <div class="header__container page__container_1110px">
                 <h1 class="header__title">
                     Reusable component library
                 </h1>
             </div>
         </header>
-        <main class="page__main">
-            <div class="page__main-container">
+        <main class="main page__main">
+            <div class="main__container page__container_1110px">
                 <!-- Tooltip -->
-                <article class="component page__article">
+                <article class="component main__article main__article_367px">
                     <div class="component__view">
                     </div>
                     <div class="component__description">Tooltip</div>
                 </article>
                 <!-- Custom form elements -->
-                <article class="component page__article">
+                <article class="component main__article main__article_367px">
                     <div class="component__view">
                     </div>
                     <div class="component__description">Custom form elements</div>
                 </article>
                 <!-- Calendar -->
-                <article class="component page__article">
+                <article class="component main__article main__article_367px">
                     <div class="component__view">
                     </div>
                     <div class="component__description">Calendar</div>
                 </article>
                 <!-- Modal dialog -->
-                <article class="component page__article">
+                <article class="component main__article main__article_367px">
                     <div class="component__view">
                     </div>
                     <div class="component__description">Modal dialog</div>
                 </article>
                 <!-- Histogram -->
-                <article class="component page__article">
+                <article class="component main__article main__article_367px">
                     <div class="component__view">
-                        <div class="histogram">
+                        <div class="histogram component__content">
                             <div class="histogram__panel">
                                 <div class="histogram__parameter">
                                     <p class="histogram__key">Индекс популярности</p>
@@ -88,7 +100,7 @@
                     <div class="component__description">Histogram</div>
                 </article>
                 <!-- Avatar -->
-                <article class="component page__article">
+                <article class="component main__article main__article_367px">
                     <div class="component__view">
                     </div>
                     <div class="component__description">Avatar</div>
@@ -96,16 +108,14 @@
             </div>
         </main>
         <footer class="footer page__footer">
-            <div class="footer__container page__footer-container">
+            <div class="footer__container page__container">
                 <h2 class="footer__title">
                     About
                 </h2>
                 <p class="footer__description">
                     This project is a collection of professionally designed, pre-built, fully responsive HTML snippets
-                    you
-                    can drop into your projects. Get started by checking out our free preview components, or browsing
-                    the
-                    PNG previews in the categories you're most curious about.
+                    you can drop into your projects. Get started by checking out our free preview components, or
+                    browsing the PNG previews in the categories you're most curious about.
                 </p>
             </div>
         </footer>
