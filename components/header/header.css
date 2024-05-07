@@ -1,0 +1,17 @@
+.header {
+    font-family: 'Inter', sans-serif;
+    color: var(--black);
+
+    background-color: var(--white);
+}
+
+.header__container {
+    margin: 0 auto;
+    padding: 96px 0 77px 0;
+}
+
+.header__title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 64px;
+}
